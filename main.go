@@ -1,8 +1,15 @@
 package main
 
 import (
+	"rest-gin-go/initialisers"
+
 	"github.com/gin-gonic/gin"
 )
+
+func init() {
+	initialisers.LoadEnvVariables()
+	initialisers.ConnectToDB()
+}
 
 func main() {
 	r := gin.Default()
