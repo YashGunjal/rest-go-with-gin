@@ -1,4 +1,4 @@
-module rest-gin-go
+module rest-go-with-gin
 
 go 1.22.2
 

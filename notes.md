@@ -13,4 +13,4 @@ go get -u gorm.io/driver/postgres
 
 
 # to run
-CompileDaemon -command="./rest-gin-go
+CompileDaemon -command="./rest-go-with-gin

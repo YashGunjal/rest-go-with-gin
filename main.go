@@ -1,7 +1,7 @@
 package main
 
 import (
-	"rest-gin-go/initialisers"
+	"rest-go-with-gin/initialisers"
 
 	"github.com/gin-gonic/gin"
 )
