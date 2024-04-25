@@ -19,6 +19,5 @@ func ConnectToDB() {
 	if err != nil {
 		log.Fatal(" couldn't connect to DB")
 	}
-	fmt.Println(DB)
-	fmt.Println("Connect to DB")
+	fmt.Println("Connected to DB")
 }

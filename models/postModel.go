@@ -2,7 +2,7 @@ package models
 
 import "gorm.io/gorm"
 
-type POST struct {
+type Post struct {
 	gorm.Model
 	Title string
 	Body  string
