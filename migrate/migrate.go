@@ -13,7 +13,7 @@ func init() {
 
 func main() {
 
-	initialisers.DB.AutoMigrate(&models.POST{})
+	initialisers.DB.AutoMigrate(&models.Post{})
 }
 
 // Migrate the schema
